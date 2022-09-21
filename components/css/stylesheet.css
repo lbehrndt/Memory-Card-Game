@@ -1,0 +1,57 @@
+:root {
+  --primary: #fefefe;
+  --secondary: #252525;
+  --accent: #e39ff6;
+}
+
+body {
+  max-width: 1200px;
+  color: var(--primary);
+  margin: auto 0;
+}
+
+.content-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 50vh;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.memory-card-flex-flex-wrap {
+  min-width: 400px;
+  max-width: 800px;
+  width: 50vw;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.memory-card {
+  background-color: var(--secondary);
+  width: 32%;
+  height: 48%;
+  border-radius: 10%;
+}
+
+.buttons-flex {
+
+}
+button.shuffle-cards {
+  font-size: 1.2rem;
+  width: 9em;
+  height: 3em;
+  background-color: var(--accent);
+  color: var(--primary);
+  border: 3px solid var(--secondary);
+  box-shadow: 5px 5px var(--secondary);
+}
