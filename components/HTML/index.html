@@ -14,16 +14,28 @@
         <h4>Find the matching pairs</h4>
       </div>
       <div class="memory-card-flex-flex-wrap">
-        <div class="memory-card" id="memory-card-1"></div>
-        <div class="memory-card" id="memory-card-2"></div>
-        <div class="memory-card" id="memory-card-3"></div>
-        <div class="memory-card" id="memory-card-4"></div>
-        <div class="memory-card" id="memory-card-5"></div>
-        <div class="memory-card" id="memory-card-6"></div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="1" src="/images/Food.jpg" onclick="show()"></img>
+        </div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="2" src="/images/Food.jpg" onclick="show()"></img>
+        </div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="3" src="/images/Mirror.jpg" onclick="show()"></img>
+        </div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="4" src="/images/Mirror.jpg" onclick="show()"></img>
+        </div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="5" src="/images/Sky.jpg" onclick="show()"></img>
+        </div>
+        <div class="memory-card">
+          <img class="hidden-memory-image" id="6" src="/images/Sky.jpg" onclick="show()"></img>
+        </div>
       </div>
       <div class="buttons-flex">
-        <button class="shuffle-cards" onclick="getMemoryCards()">Shuffle</button>
-        <button class="reset-cards">Reset</button>
+        <button class="shuffle" onclick="shuffle()">Shuffle</button>
+        <button class="reset" onclick="reset()">Reset</button>
       </div>
     </section>
     <script rel="javascript" src="/components/js/index.js"></script>
